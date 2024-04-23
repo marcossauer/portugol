@@ -1,18 +1,19 @@
 programa {
-  funcao inicio() {
-    
+  funcao inicio() 
+ {
+
+const inteiro MAIORIDADE = 18
+inteiro idade, anos
+
+escreva("digite sua idade: ")  
+leia(idade)
+
+anos = MAIORIDADE - idade
+  
+se (anos > 0)
+{
+  escreva("falta(m)", anos, " anos(s) para voce atingir a maioridade")
+} 
+
   }
-}real a, b, soma, sub, mult, div
-
-escreva("digite o primeiro numero:")
-leia(a)
-
-escreva("digite o segundo numero:")
-leia(b)
-
-soma= a + b // soma os dois valores
-sub= a - b //subtração os dois valores
-mult= a * b // multiplicação os dois valores
-div= a / b //divisão os dois valores 
-
-escreva("\nA soma dos dois numeros é igual a :", soma)   // exibir
+}
